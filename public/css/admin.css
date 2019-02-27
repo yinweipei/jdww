@@ -1,0 +1,133 @@
+/*每日美签*/
+.add_siginin_frame{
+	display: none;
+}
+.inner_frame{
+	width: 80%;
+	height: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.signin-box{
+	width: 100%;
+	height: 80px;
+}
+.sign-title{
+	width: 100%;
+	display: block;
+}
+.layui-inline{
+	width: 100%;
+	height: 30px;
+}
+.layui-inline input{
+	width: 100%;
+	height: 30px;
+	margin-top: 15px;
+}
+.box-header{
+	height: 50px;
+}
+.box-tools{
+	margin-right: 40px;
+}
+
+/*会员详情*/
+.table_frame{
+	width: 400px;
+	height: 400px;
+	/*background: #fff;*/
+	position: relative;
+	margin: 50px 0 0 50px;
+}
+.user-group{
+	margin-bottom: 15px;
+}
+.user-group span{
+	width: 100px;
+	/*background: red;*/
+	font-style: 36px;
+	font-weight: normal;
+	margin-right: 30px;
+}
+.user-group input{
+	width: 70%;
+	display: inline-block;
+	/*float: left;*/
+}
+.select-box{
+	width: 280px;
+	height: 34px;
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+.select-sex{
+	height: 34px;
+	position: absolute;
+}
+.select-sex1 input{
+	width: 30px;
+	position: relative;
+	left: 0;
+	z-index: 3;
+}
+.select-sex1 label{
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.select-sex2 input{
+	width: 30px;
+	position: relative;
+	left: 70px;
+	top: 0;
+	z-index: 2;
+}
+.select-sex2 label{
+	position: relative;
+	left: 70px;
+	top: 0;
+}
+.select-sex3 input{
+	width: 30px;
+	position: relative;
+	left: 140px;
+	top: 0;
+	z-index: 1;
+}
+.select-sex3 label{
+	position: relative;
+	left: 140px;
+	top: 0;
+}
+.user-group textarea{
+	width: 280px;
+	height: 80px;
+	position: absolute;
+	top: 0;
+	left: 90px;
+}
+.intro{
+	position: absolute;
+}
+.save-button{
+	width: 100px;
+	height: 31px;
+	font-size: 14px;
+    color: #FFFFFF;
+    background: #00cfe2;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 31px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+.back-user{
+	position: absolute;
+	bottom: 75px;
+	right: 90px;
+	cursor: pointer;
+}
